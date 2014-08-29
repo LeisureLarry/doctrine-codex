@@ -55,7 +55,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 2. Benutze Kleinbuchstaben für die Schlüssel von Options-Arrays und bei den Namen von Formularfeldern. Einzelne Wörter werden durch Underscores getrennt.
 3. Benutze Namespaces für alle Klassen.
 4. Benutze bei abstrakten Klassen das Prefix Abstract im Bezeichner.
-5. Benutze in Dateinamen nur alphanummerische Zeichen und den Underscore.
+5. Benutze in Dateinamen nur alphanummerische Zeichen (lateinische Buchstaben und arabische Ziffern) und den Underscore.
 
 ## Eigene Ergänzungen
 

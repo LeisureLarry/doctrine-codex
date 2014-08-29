@@ -63,7 +63,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 1. Es ist nur genau eine Anweisung pro Zeile gestattet.
 2. Benutze den C-Syntax mit geschweiften Klammern für Kontrollstrukturen. Lediglich in Templates sollte zur besseren Lesbarkeit die alternative Syntax verwendet werden, wobei der Doppelpunkt direkt nach der schließenden runden Klammer kommt.
-3. Ein schließendes PHP-Tag am Ende einer Datei ist optional und sollte weggelassen werden, um Probleme mit versehentlichen Leerzeichen/-zeilen zu vermeiden.
+3. Ein schließendes PHP-Tag am Ende einer Datei ist optional und sollte weggelassen werden, um Probleme mit versehentlichen Leerzeichen/-zeilen zu vermeiden. Stattdessen wird eine Leerzeile ergänzt.
 4. Die öffnenden und schließenden geschweiften Klammern von Funktionen sollten genauso wie bei den Methoden einzeln in einer eigenen Zeile stehen.
 5. Vor und hinter dem Pfeiloperator -> kommen keine Leerzeichen.
 

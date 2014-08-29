@@ -70,9 +70,10 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 ### Namenskonventionen
 
 1. PHP-Schlüsselworte sind klein zu schreiben (z.B. if und for).
-2. Formuliere Klassen-Namen sofern möglich im Singular.
-3. Formuliere die Tabellennamen in Datenbanken sofern möglich im Plural.
-4. Benutze Kleinbuchstaben für die Namen von Datenbanken, Tabellen und Tabellenspalten. Einzelne Wörter werden durch Underscores getrennt.
+2. Bezeichner werden nicht mit einem Underscore begonnen.
+3. Formuliere Klassen-Namen sofern möglich im Singular.
+4. Formuliere die Tabellennamen in Datenbanken sofern möglich im Plural.
+5. Benutze Kleinbuchstaben für die Namen von Datenbanken, Tabellen und Tabellenspalten. Einzelne Wörter werden durch Underscores getrennt.
 
 ### Idea
 [Jan Teriete](https://plus.google.com/106660436858103395374?rel=author)

@@ -2,9 +2,12 @@
 
 ## Codex for Doctrine 2
 
-German style guide for Doctrine 2 projects
+EN: German style guide for Doctrine 2 projects
+DE: Deutschsprachige Programmierrichtlinien für Projekte auf Basis von Doctrine 2
 
-Die vorliegenden Programmierrichtlinien basieren auf PSR-1 und PSR-2 der PHP FIG. Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SOLLTEN NICHT definieren innerhalb der beiden PSRs, wie verpflichtend eine Regel einzuhalten ist.
+Die vorliegenden Programmierrichtlinien basieren auf PSR-1 und PSR-2 der PHP FIG.
+
+Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SOLLTEN NICHT definieren innerhalb dieser beiden PSRs, wie verpflichtend eine Regel einzuhalten ist.
 
 ## PSR-1: Framework-Interoperabilität
 [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
@@ -31,7 +34,7 @@ Die vorliegenden Programmierrichtlinien basieren auf PSR-1 und PSR-2 der PHP FIG
 9. Nach den öffnenden und vor den schließenden runden Klammern von Kontrollstrukturen DARF KEIN Leerzeichen stehen.
 
 ## Ergänzungen aus den Symfony-Standards
-[PSR-2](http://symfony.com/doc/current/contributing/code/standards.html)
+[Symfony-Standards](http://symfony.com/doc/current/contributing/code/standards.html)
 
 ### Struktur
 

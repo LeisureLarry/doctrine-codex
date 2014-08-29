@@ -3,6 +3,7 @@
 ## Codex for Doctrine 2
 
 EN: German style guide for Doctrine 2 projects
+
 DE: Deutschsprachige Programmierrichtlinien für Projekte auf Basis von Doctrine 2
 
 Die vorliegenden Programmierrichtlinien basieren auf PSR-1 und PSR-2 der PHP FIG.

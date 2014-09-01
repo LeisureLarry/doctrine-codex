@@ -46,7 +46,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 5. Benutze unabhängig von der Anzahl der Anweisungen immer geschweifte Klammern, um den Rumpf von Kontrollstrukturen zu kennzeichnen (z.B. bei if-Anweisungen oder Schleifen).
 6. Notiere pro Datei genau eine Klassen-Definition.
 7. Deklariere alle Klassen-Attribute über den Methoden.
-8. Sortiere Methoden bei der Deklaration nach ihrer Sichtbarkeit, zuerst kommt public, dann protected und zuletzt private. Eine der wenigen Ausnahmen bildet der Konstruktur, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte.
+8. Sortiere Methoden bei der Deklaration nach ihrer Sichtbarkeit, zuerst kommt public, dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktur eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als erstes angeben.
 9. Bei der Instanziierung einer Klasse werden die runden Klammern nach dem Klassen-Namen immer angegeben.
 
 ### Namenskonventionen
@@ -69,11 +69,12 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 ### Namenskonventionen
 
-1. PHP-Schlüsselworte sind klein zu schreiben (z.B. if und for).
-2. Bezeichner werden nicht mit einem Underscore begonnen.
-3. Formuliere Klassen-Namen sofern möglich im Singular.
-4. Formuliere die Tabellennamen in Datenbanken sofern möglich im Plural.
-5. Benutze Kleinbuchstaben für die Namen von Datenbanken, Tabellen und Tabellenspalten. Einzelne Wörter werden durch Underscores getrennt.
+1. Bei Konfigurationsdateien ist ausnahmsweise im Dateinamen das Minuszeichen als Trenner erlaubt.
+2. PHP-Schlüsselworte sind klein zu schreiben (z.B. if und for).
+3. Bezeichner werden nicht mit einem Underscore begonnen.
+4. Formuliere Klassen-Namen sofern möglich im Singular.
+5. Formuliere die Tabellennamen in Datenbanken sofern möglich im Plural.
+6. Benutze Kleinbuchstaben für die Namen von Datenbanken, Tabellen und Tabellenspalten. Einzelne Wörter werden durch Underscores getrennt.
 
 ### Idea
 [Jan Teriete](https://plus.google.com/106660436858103395374?rel=author)

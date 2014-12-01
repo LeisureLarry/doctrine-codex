@@ -33,7 +33,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 7. Kontrollstrukturen MÜSSEN ein Leerzeichen zwischem dem jeweiligen Schlüsselwort und der öffnenden runden Klammer haben; Funktions- und Methodenaufrufe DÜRFEN kein Leerzeichen vor der öffnenden runden Klammer haben.
 8. Die öffnenden geschweiften Klammern von Kontrollstrukturen DÜRFEN KEINE eigene neue Zeile einnehmen, die schließenden geschweiften Klammern MÜSSEN hingegen einzeln in einer eigenen Zeile stehen.
 9. Nach den öffnenden und vor den schließenden runden Klammern von Kontrollstrukturen DARF KEIN Leerzeichen stehen.
-10. Alle PHP-Dateien MÜSSEN den Unix-Zeilenumbruch (LF) verwenden. In den meisten Windows-Editoren und IDEs kann man angeben, welcher Zeilenumbruch für neue Dateien verwendet werden soll.
+10. Alle PHP-Dateien MÜSSEN den Unix-Zeilenumbruch (LF) verwenden.
 11. Das schließende PHP-Tag am Dateiende ist optional. Enthält eine Datei nur PHP-Code, so MUSS dieses optionale Tag weggelassen werden.
 12. Alle PHP-Dateien MÜSSEN mit einer einzigen Leerzeilen enden.
 13. PHP-Schlüsselwörter MÜSSEN in Kleinbuchstaben geschrieben werden (z.B. if und for).

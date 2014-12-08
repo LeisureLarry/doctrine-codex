@@ -26,15 +26,15 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 1. Programmiercode MUSS vier Leerzeichen als Einrückung verwenden (keine Tabulatoren bzw. Tabs).
 2. Es DARF KEIN hartes (verpflichtendes) Zeichenlimit für einzelne Zeilen geben; das softe Limit MÜSSEN 120 Zeichen pro Zeile sein; Zeilen SOLLTEN 80 Zeichen oder weniger enthalten.
-3. Nach der Deklaration des Namespaces MUSS eine Leerzeile folgen und es MUSS eine weitere Leerzeile nach dem Block mit den USE-Deklarationen geben.
-4. Die öffnenden und schließenden geschweiften Klammern einer Klasse MÜSSEN einzeln in einer eigenen Zeile stehen.
-5. Die öffnenden und schließenden geschweiften Klammern einer Methode MÜSSEN einzeln in einer eigenen Zeile stehen.
-6. Die Sichtbarkeit von Attributen und Methoden MUSS immer angegeben werden; abstract oder final MUSS vor der Sichtbarkeit angegeben werden; static MUSS nach der Sichtbarkeit angegeben werden.
-7. Kontrollstrukturen MÜSSEN ein Leerzeichen zwischen dem jeweiligen Schlüsselwort und der öffnenden runden Klammer aufweisen; Funktions- und Methodenaufrufe DÜRFEN kein Leerzeichen vor der öffnenden runden Klammer haben.
-8. Die öffnenden geschweiften Klammern von Kontrollstrukturen DÜRFEN KEINE eigene neue Zeile einnehmen, die schließenden geschweiften Klammern MÜSSEN hingegen einzeln in einer eigenen Zeile stehen.
-9. Nach den öffnenden und vor den schließenden runden Klammern von Kontrollstrukturen DARF KEIN Leerzeichen stehen.
-10. PHP-Schlüsselwörter MÜSSEN in Kleinbuchstaben geschrieben werden (z.B. if und for).
-11. Die PHP-Konstanten true, false und null MÜSSEN in Kleinbuchstaben geschrieben werden.
+3. Es ist nur genau eine Anweisung pro Zeile gestattet, d.h. nach einem Semikolon erfolgt immer ein Zeilenumbruch.
+4. Nach der Deklaration des Namespaces MUSS eine Leerzeile folgen und es MUSS eine weitere Leerzeile nach dem Block mit den USE-Deklarationen geben.
+5. Die öffnenden und schließenden geschweiften Klammern einer Klasse MÜSSEN einzeln in einer eigenen Zeile stehen.
+6. Die öffnenden und schließenden geschweiften Klammern einer Methode MÜSSEN einzeln in einer eigenen Zeile stehen.
+7. Die Sichtbarkeit von Attributen und Methoden MUSS immer angegeben werden; abstract oder final MUSS vor der Sichtbarkeit angegeben werden; static MUSS nach der Sichtbarkeit angegeben werden.
+8. Kontrollstrukturen MÜSSEN ein Leerzeichen zwischen dem jeweiligen Schlüsselwort und der öffnenden runden Klammer aufweisen; Funktions- und Methodenaufrufe DÜRFEN kein Leerzeichen vor der öffnenden runden Klammer haben.
+9. Die öffnenden geschweiften Klammern von Kontrollstrukturen DÜRFEN KEINE eigene neue Zeile einnehmen, die schließenden geschweiften Klammern MÜSSEN hingegen einzeln in einer eigenen Zeile stehen.
+10. Nach den öffnenden und vor den schließenden runden Klammern von Kontrollstrukturen DARF KEIN Leerzeichen stehen.
+11. PHP-Schlüsselwörter (z.B. if und for) und PHP-Konstanten (true, false und null) MÜSSEN in Kleinbuchstaben geschrieben werden.
 12. Die Bezeichner von Attributen und Methoden DÜRFEN NICHT mit einem Underscore beginnen.
 13. Alle PHP-Dateien MÜSSEN den Unix-Zeilenumbruch (LF) verwenden.
 14. Das (optionale) schließende PHP-Tag am Dateiende MUSS weggelassen werden, sofern die Datei nur PHP-Code enthält (sogenannte pure PHP-Dateien).
@@ -67,10 +67,9 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 ### Struktur
 
-1. Es ist nur genau eine Anweisung pro Zeile gestattet. Nach einem Semikolon erfolgt also immer ein Zeilenumbruch. Eine Ausnahme dieser Regel bildet natürlich der Kopf einer for-Schleife.
-2. Benutze den C-Syntax mit geschweiften Klammern für Kontrollstrukturen. Lediglich in Templates sollte zur besseren Lesbarkeit die alternative Syntax verwendet werden, wobei der Doppelpunkt direkt nach der schließenden runden Klammer kommt.
-3. Die öffnenden und schließenden geschweiften Klammern von Funktionen sollten genauso wie bei den Methoden einzeln in einer eigenen Zeile stehen.
-4. Vor und hinter dem Pfeiloperator -> kommen keine Leerzeichen.
+1. Benutze den C-Syntax mit geschweiften Klammern für Kontrollstrukturen. Lediglich in Templates sollte zur besseren Lesbarkeit die alternative Syntax verwendet werden, wobei der Doppelpunkt direkt nach der schließenden runden Klammer kommt.
+2. Die öffnenden und schließenden geschweiften Klammern von Funktionen sollten genauso wie bei den Methoden einzeln in einer eigenen Zeile stehen.
+3. Vor und hinter dem Pfeiloperator -> kommen keine Leerzeichen.
 
 ### Namenskonventionen
 

@@ -15,7 +15,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 1. Dateien DÜRFEN NUR die PHP-Tags &lt;?php und &lt;?= verwenden.
 2. Dateien MÜSSEN als Zeichenkodierung UTF-8 ohne BOM für PHP-Code verwenden.
-3. Dateien SOLLTEN entweder Symbole (wie Klassen, Funktionen, Konstanten, etc.) definieren oder eine Auswirkung haben (z.B. Ausgabe generieren). Sie SOLLTEN NICHT beides tun.
+3. Dateien SOLLTEN entweder Symbole (wie Klassen, Funktionen, Konstanten, etc.) definieren oder eine Auswirkung haben (z.B. eine Ausgabe mit echo generieren). Sie SOLLTEN NICHT beides tun.
 4. Namespaces und Klassen MÜSSEN einen Autoloading-Standard befolgen.
 5. Klassen-Namen MÜSSEN den UpperCamelCase verwenden.
 6. Klassen-Konstanten MÜSSEN Großbuchstaben verwenden. Einzelne Wörter innerhalb dieser Bezeichner werden mittels Underscore getrennt.
@@ -52,7 +52,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 5. Benutze unabhängig von der Anzahl der Anweisungen immer geschweifte Klammern, um den Rumpf von Kontrollstrukturen zu kennzeichnen (z.B. bei if-Anweisungen oder Schleifen).
 6. Notiere pro Datei genau eine Klassen-Definition.
 7. Deklariere alle Klassen-Attribute über den Methoden.
-8. Sortiere Methoden bei der Deklaration nach ihrer Sichtbarkeit, zuerst kommt public, dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktor eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als erstes angeben.
+8. Sortiere Methoden bei der Deklaration nach ihrer Sichtbarkeit, zuerst kommt public, dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktor eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als Erstes angeben.
 9. Bei der Instanziierung einer Klasse werden die runden Klammern nach dem Klassen-Namen immer angegeben.
 
 ### Namenskonventionen

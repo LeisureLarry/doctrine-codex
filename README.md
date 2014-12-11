@@ -8,7 +8,7 @@ DE: Deutschsprachige Programmierrichtlinien für Projekte auf Basis von Doctrine
 
 Die vorliegenden Programmierrichtlinien basieren auf PSR-1 und PSR-2 der PHP FIG, beinhalten jedoch nicht alle der dortigen Empfehlungen.
 
-Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SOLLTEN NICHT definieren innerhalb dieser beiden PSRs, wie verpflichtend eine Regel einzuhalten ist.
+Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SOLLTEN NICHT definieren, wie verpflichtend eine Regel einzuhalten ist.
 
 ## PSR-1: Framework-Interoperabilität
 [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
@@ -60,7 +60,8 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 5. Unabhängig von der Anzahl der Anweisungen MÜSSEN immer geschweifte Klammern benutzt werden, um den Rumpf von Kontrollstrukturen zu kennzeichnen (z. B. bei if-Anweisungen oder Schleifen).
 6. Pro Datei DARF genau eine Klassen-Definition notiert werden.
 7. Alle Klassen-Attribute MÜSSEN über den Methoden deklariert werden.
-8. Methoden MÜSSEN bei der Deklaration nach ihrer Sichtbarkeit sortiert werden, zuerst kommt public , dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktor eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als Erstes angeben. Bei der Instanziierung einer Klasse MÜSSEN die runden Klammern nach dem Klassen-Namen immer angegeben werden.
+8. Methoden MÜSSEN bei der Deklaration nach ihrer Sichtbarkeit sortiert werden, zuerst kommt public, dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktor eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als Erstes angeben.
+9. Bei der Instanziierung einer Klasse MÜSSEN die runden Klammern nach dem Klassen-Namen immer angegeben werden.
 
 ### Namenskonventionen
 

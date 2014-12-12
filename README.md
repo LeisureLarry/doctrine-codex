@@ -58,7 +58,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 3. Hinter jedem Element in einem mehrzeiligen Array (auch und vor allem hinter dem letzten Element) MUSS ein Komma folgen.
 4. Vor return-Anweisungen MUSS genau eine Leerzeile ergänzt werden, außer das Return steht als einzige Anweisung innerhalb geschweifter Klammern (z. B. bei einer if-Anweisung).
 5. Unabhängig von der Anzahl der Anweisungen MÜSSEN immer geschweifte Klammern benutzt werden, um den Rumpf von Kontrollstrukturen zu kennzeichnen (z. B. bei if-Anweisungen oder Schleifen).
-6. Pro Datei DARF genau eine Klassen-Definition notiert werden.
+6. Pro Datei DARF NUR genau eine Klassen-Definition notiert werden.
 7. Alle Klassen-Attribute MÜSSEN über den Methoden deklariert werden.
 8. Methoden MÜSSEN bei der Deklaration nach ihrer Sichtbarkeit sortiert werden, zuerst kommt public, dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktor eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als Erstes angeben.
 9. Bei der Instanziierung einer Klasse MÜSSEN die runden Klammern nach dem Klassen-Namen immer angegeben werden.
@@ -69,7 +69,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 2. Für die Schlüssel von Options-Arrays und bei den Namen von Formularfeldern MÜSSEN Kleinbuchstaben verwendet werden. Einzelne Wörter werden durch Underscores getrennt.
 3. Für alle Klassen MÜSSEN Namespaces verwendet werden.
 4. Bei abstrakten Klassen MUSS das Präfix Abstract im Bezeichner verwendet werden.
-5. In Dateinamen DÜRFEN nur alphanumerische Zeichen (lateinische Buchstaben und arabische Ziffern) und der Underscore verwendet werden.
+5. In Dateinamen DÜRFEN NUR alphanumerische Zeichen (lateinische Buchstaben und arabische Ziffern) und der Underscore verwendet werden.
 
 ## Eigene Ergänzungen
 

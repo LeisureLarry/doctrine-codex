@@ -15,7 +15,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 1. Dateien DÜRFEN NUR die PHP-Tags <?php und <?= verwenden.
 2. Dateien MÜSSEN als Zeichenkodierung UTF-8 ohne BOM für PHP-Code verwenden.
-3. Dateien SOLLTEN entweder Symbole (wie Klassen, Funktionen, Konstanten, etc.) definieren oder eine Auswirkung haben (z. B. eine Ausgabe mit echo generieren). Sie SOLLTEN NICHT beides tun.
+3. Dateien SOLLTEN entweder Symbole (wie Klassen, Funktionen, Konstanten, etc.) definieren oder eine Auswirkung haben (z.B. eine Ausgabe mit echo generieren). Sie SOLLTEN NICHT beides tun.
 4. Namespaces und Klassen MÜSSEN einen Autoloading-Standard befolgen.
 5. Klassen-Namen MÜSSEN den UpperCamelCase verwenden.
 6. Klassen-Konstanten MÜSSEN Großbuchstaben verwenden. Einzelne Wörter innerhalb dieser Bezeichner werden mittels Underscore getrennt.
@@ -39,7 +39,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 ### Namenskonventionen
 
-1. PHP-Schlüsselwörter (z. B. if und for) und PHP-Konstanten (true , false und null) MÜSSEN in Kleinbuchstaben geschrieben werden.
+1. PHP-Schlüsselwörter (z.B. if und for) und PHP-Konstanten (true , false und null) MÜSSEN in Kleinbuchstaben geschrieben werden.
 2. Die Bezeichner von Attributen und Methoden DÜRFEN NICHT mit einem Underscore beginnen.
 
 ### Dateien
@@ -54,14 +54,15 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 ### Struktur
 
 1. Nach jedem Komma-Separator MUSS genau ein Leerzeichen folgen.
-2. Vor und hinter Operatoren (z. B. bei == und &&) MUSS genau ein Leerzeichen gesetzt werden.
-3. Hinter jedem Element in einem mehrzeiligen Array (auch und vor allem hinter dem letzten Element) MUSS ein Komma folgen.
-4. Vor return-Anweisungen MUSS genau eine Leerzeile ergänzt werden, außer das Return steht als einzige Anweisung innerhalb geschweifter Klammern (z. B. bei einer if-Anweisung).
-5. Unabhängig von der Anzahl der Anweisungen MÜSSEN immer geschweifte Klammern benutzt werden, um den Rumpf von Kontrollstrukturen zu kennzeichnen (z. B. bei if-Anweisungen oder Schleifen).
-6. Pro Datei DARF NUR genau eine Klassen-Definition notiert werden.
-7. Alle Klassen-Attribute MÜSSEN über den Methoden deklariert werden.
-8. Methoden MÜSSEN bei der Deklaration nach ihrer Sichtbarkeit sortiert werden, zuerst kommt public, dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktor eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als Erstes angeben.
-9. Bei der Instanziierung einer Klasse MÜSSEN die runden Klammern nach dem Klassen-Namen immer angegeben werden.
+2. Vor und hinter binären Operatoren (z.B. bei == und &&) MUSS genau ein Leerzeichen gesetzt werden.
+3. Zwischen unären Operatoren (z.B. ! und --) und dem Operanden DARF KEIN Leerzeichen gesetzt werden.
+4. Hinter jedem Element in einem mehrzeiligen Array (auch und vor allem hinter dem letzten Element) MUSS ein Komma folgen.
+5. Vor return-Anweisungen MUSS genau eine Leerzeile ergänzt werden, außer das Return steht als einzige Anweisung innerhalb geschweifter Klammern (z.B. bei einer if-Anweisung).
+6. Unabhängig von der Anzahl der Anweisungen MÜSSEN immer geschweifte Klammern benutzt werden, um den Rumpf von Kontrollstrukturen zu kennzeichnen (z.B. bei if-Anweisungen oder Schleifen).
+7. Pro Datei DARF NUR genau eine Klassen-Definition notiert werden.
+8. Alle Klassen-Attribute MÜSSEN über den Methoden deklariert werden.
+9. Methoden MÜSSEN bei der Deklaration nach ihrer Sichtbarkeit sortiert werden, zuerst kommt public, dann protected und zuletzt private. Laut Symfony-Standards bildet der Konstruktor eine Ausnahme, der zur besseren Lesbarkeit unabhängig von seiner Sichtbarkeit immer direkt nach den Attributen kommen sollte. Ich persönlich würde dies auf alle magischen Methoden ausweiten und den Konstruktur als Erstes angeben.
+10. Bei der Instanziierung einer Klasse MÜSSEN die runden Klammern nach dem Klassen-Namen immer angegeben werden.
 
 ### Namenskonventionen
 

@@ -46,7 +46,7 @@ Die Schlüsselwörter MÜSSEN/MÜSSEN NICHT/DÜRFEN NUR/DARF KEIN und SOLLTEN/SO
 
 1. Alle PHP-Dateien MÜSSEN den Unix-Zeilenumbruch (LF) verwenden.
 2. Das schließende PHP-Tag am Dateiende MUSS weggelassen werden, sofern die Datei nur PHP-Code enthält (sogenannte pure PHP-Dateien).
-3. Alle (puren) PHP-Dateien MÜSSEN mit einer einzigen Leerzeilen enden.
+3. Alle (puren) PHP-Dateien MÜSSEN mit einer einzelnen Leerzeile enden.
 
 ## Ergänzungen aus den Symfony-Standards
 [Symfony-Standards](http://symfony.com/doc/current/contributing/code/standards.html)
